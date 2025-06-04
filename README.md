@@ -75,7 +75,7 @@ GPU accelerated Neural networks in JavaScript for Browsers and Node.js
 > pip install setuptools
 >```
 > [Reference: GitHub Issue Comment](https://github.com/BrainJS/brain.js/issues/930#issuecomment-2155350536)\
-> [Reference: Python Standart Library: distutils](https://docs.python.org/3/library/distutils.html)
+> [Reference: Python Standard Library: distutils](https://docs.python.org/3/library/distutils.html)
 
 > [!NOTE]
 > Some users may encounter issues due to an outdated `node-gyp` version (< 10), which leads to similar errors related to the missing `distutils` module.
