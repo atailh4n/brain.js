@@ -69,6 +69,16 @@ GPU accelerated Neural networks in JavaScript for Browsers and Node.js
 
 ### NPM
 
+> [!CAUTION]
+> Before installing brain.js, you must install `setuptools` with administrative privileges.
+> Since Python 3.12, the distutils module has been removed from the standard library. Many tools that previously depended on distutils now rely on setuptools instead.
+> To proceed, open PowerShell as Administrator and run the following command:
+> ```ps
+> pip install setuptools
+>```
+> After successful installation, you can continue with the installation of brain.js.
+> [According to this GitHub Issue](https://github.com/BrainJS/brain.js/issues/930), this step resolves the installation error caused by missing `distutils`.
+
 If you can install `brain.js` with [npm](http://npmjs.org):
 
 ```bash
